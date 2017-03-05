@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomPluginAPI", "RoomPluginAPI\RoomPluginAPI.csproj", "{7FF3A689-1DC8-4ADA-B478-90258295E315}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{426A98D3-63D3-4AC0-A281-42E40C27682D}"
+	ProjectSection(SolutionItems) = preProject
+		RoomPluginAPI\DistributionTypesCustom.cs = RoomPluginAPI\DistributionTypesCustom.cs
+		RoomPluginAPI\RoomMethods.cs = RoomPluginAPI\RoomMethods.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
