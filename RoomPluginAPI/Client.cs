@@ -59,7 +59,7 @@ namespace RoomPluginAPI
         /// <param name="name"></param>
         /// <param name="max"></param>
         /// <returns></returns>
-        public DarkRiftWriter SerializeNameMax(String name, int max)
+        private DarkRiftWriter SerializeNameMax(String name, int max)
         {
             using(DarkRiftWriter writer = new DarkRiftWriter())
             {
